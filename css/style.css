@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    background-color: #0f1112;
+    font-family: 'Share Tech', sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #3D404A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu,.search{
+ cursor: pointer;
+}
+h3{
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+table{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+table tr td{
+    font-size: 25px;
+    width: 70px;
+    height: 60px;
+}
+span{
+    text-transform: capitalize;
+    font-size: 10px;
+    display: block;
+}
+
+.type-1{
+    border: 4px solid #4E3A40 ;
+    color: #9F7483;
+  
+}
+.type-1:hover{
+    background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+    transform: scale(1.15); 
+    transition: all 0.5s ease-out;
+    /* color: #ad7387; */
+}
+.type-2{
+    border: 4px solid #352C2B;
+    color: #99817D;
+}
+.type-2:hover{
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
+    transform: scale(1.15); 
+    transition: all 0.5s ease-out;
+}
+.type-3{
+    border: 4px solid #282B33;
+    color: #69778B;
+}
+.type-3:hover{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+     transform: scale(1.15); 
+    transition: all 0.5s ease-out;
+}
+.type-4{
+    border: 4px solid #1F3E36;
+    color: #64BAA2;
+}
+.type-4:hover{
+    background-image: linear-gradient( 135deg, #69FF97 10%, #00E4FF 100%);
+     transform: scale(1.15); 
+    transition: all 0.5s ease-out;
+}
+.type-5{
+    border: 4px solid #1F3945;
+    color: #62A4C2;
+}
+.type-5:hover{
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+     transform: scale(1.15); 
+    transition: all 0.5s ease-out;
+}
+.type-6{
+    border: 4px solid #293145;
+    color: #7A91C4;
+}
+.type-6:hover{
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+     transform: scale(1.15); 
+    transition: all 0.5s ease-out;
+}
+.type-7{
+    border: 4px solid #2B2C45;
+    color: #8586C5;
+}
+.type-7:hover{
+    background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+     transform: scale(1.15); 
+    transition: all 0.5s ease-out;
+}
+.type-8{
+    border: 4px solid #312744;
+    color: #967BBE;
+}
+.type-8:hover{
+    background-image: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
+     transform: scale(1.15); 
+    transition: all 0.5s ease-out;
+}
+.type-9{
+    border: 4px solid #2A2C2D;
+    color: #81858D;
+}
+.type-9:hover{
+    background-color: #E4E4E1;
+    background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+        background-blend-mode: normal, multiply;
+     transform: scale(1.15); 
+    transition: all 0.5s ease-out;
+}
+.type-10{
+    border: 4px solid #302929;
+    color: #8F7B7D;
+    
+}
+.type-10:hover{
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
+     transform: scale(1.15); 
+    transition: all 0.5s ease-out;
+   
+}
